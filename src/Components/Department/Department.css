@@ -1,0 +1,9 @@
+.department-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    grid-row-gap: 100px;
+}
+.departmentTitle{
+    color: #0a8c84;
+}

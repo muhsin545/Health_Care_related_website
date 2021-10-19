@@ -1,0 +1,7 @@
+.doctorsImg{
+    opacity: 0.7;
+}
+.div:hover .doctorsImg{
+    opacity: 1;
+    transition: all 0.2s;
+}

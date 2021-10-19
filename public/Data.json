@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "Diagnostic Service",
+        "desc": "Medical diagnosis is the process of determining which disease or condition explains a persons symptoms and signs. It is most often referred to as diagnosis with the medical context being implicit. The information required for diagnosis is typically collected from a history and physical examination of the person seeking medical care. Often one or more diagnostic procedures such as medical tests",
+        "Ratings": 5,
+        "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGlhZ25vc2lzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+        "name": "Diabetes Center",
+        "id": 1,
+        "Ratings": 4,
+        "desc": "Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy. Most of the food you eat is broken down into sugar (also called glucose) and released into your bloodstream. When your blood sugar goes up ,it signals your pancreas to release insulin.Diabetes (diabetes mellitus) is classed as a metabolism disorder. Metabolism refers to the way our bodies use digested food for energy and growth.",
+        "img": "https://images.unsplash.com/photo-1576169210859-6796c4b93c32?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGlhYmV0ZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+        "name": "Health Checkup",
+        "id": 2,
+        "Ratings": 3,
+        "desc": "Regular check-ups can help find potential health issues before they become a problem. When you see your doctor regularly, they are able to detect health conditions or diseases early. Early detection gives you the best chance for getting the right treatment quickly, avoiding any complications. By getting the correct health services, screenings, and treatment you are taking important steps toward living a longer, healthier life.Doctors are also requesting that patients get regular check-ups to help stay on top of their health. They are highlighting the importance of prevention, as a means to reduce the number of patients requiring medical treatment or surgery.",
+        "img": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aGVhbHRofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+        "name": "Pain and Physiotherapy",
+        "id": 3,
+        "Ratings": 4,
+        "desc": "Pain is a protective symptom. It leads a patient to take medication and treatment. Our pain center is dedicated to care your pain and keeping you in comfort. We have renowned doctors, physiotherapists and world-class instruments for pain management and rehabilitation of the patients. We love to address all sort of pain and offer quality services to make our patients happy and smile. You are welcome to visit our pain and physiotherapy center.",
+        "img": "https://rebalancetoronto.com/wp-content/uploads/2017/02/chronic-pain-physiotherapy-treatment-toronto.jpg"
+    },
+    {
+        "name": "Dental Care",
+        "id": 4,
+        "Ratings": 4,
+        "desc": "Health Care Specialized Dental Centre  is a Centre of excellence where advanced services are rendered by a group of experienced renowned professors and consultants. Here we serve the patients world-class treatment in different subspecialty like oral and maxillofacial surgery, Conservates & Cosmetic Dentistry & general dentistry by both male and female dental surgeons through modern equipment’s and advanced materials with reasonable price.",
+        "img": "https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGRlbnRhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+        "name": "Laboratory Service",
+        "id": 5,
+        "Ratings": 4,
+        "desc": "Health Care Diagnostic Laboratory having a state of art technology for medical diagnostic laboratory which included Aptio Automation for Biochemistry & Immunology, World class Abbot, Orthoclinical Diagnostics & Dia Somin system. Also, have Serbia clamophoresis (capillary), Biorad HPLC base HBAC analyzer & Allergy Analyzer (64 allergens). Molecular Diagnostics using Gene Xpert, Qiagen, BioRad System for PCR base diagnosis.",
+        "img": "https://erofdallastx.com/wp-content/uploads/2020/12/What-Tests-Does-the-Certified-Full-Service.png"
+    }
+]
