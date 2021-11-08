@@ -18,7 +18,9 @@ const Login = () => {
             .then(result => {
                 history.push(redirect_uri)
             })
-    }
+    };
+
+
     return (
         <>
 

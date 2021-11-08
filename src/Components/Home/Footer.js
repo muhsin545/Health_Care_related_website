@@ -9,7 +9,7 @@ const Footer = () => {
 
                 <div className='ms-auto col-md-4'>
                     <div className=' d-flex align-items-center '>
-                        <img src={logo} width="100" className='rounded-circle  my-5' height="auto" alt="" />
+                        <img src={logo} width="100" className='rounded-circle mx-2  my-5' height="auto" alt="" />
                         <h3>Health Care</h3>
                     </div>
                     <small>
