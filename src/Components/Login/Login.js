@@ -25,7 +25,7 @@ const Login = () => {
         <>
 
             <form onSubmit={handleRegistration} className='container'>
-                <h2 className="my-5 text-center text-primary">Please {!isLogin ? "Register" : "Login"}</h2>
+                <h2 className="my-5 text-center text-success">Please {!isLogin ? "Register" : "Login"}</h2>
                 {
                     !isLogin && <div class="row mb-3 mt-5">
                         <label for="inputName" class="col-sm-2 col-form-label">Name</label>
@@ -58,10 +58,10 @@ const Login = () => {
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">{!isLogin ? "Register" : "Login"}</button>
+                <button type="submit" class="btn btn-success">{!isLogin ? "Register" : "Login"}</button>
 
 
-                <button onClick={handleGoogleLogin} className='btn mx-2 btn-primary my-3'>Google Login</button>
+                <button onClick={handleGoogleLogin} className='btn mx-2 btn-success my-3'>Google Login</button>
 
             </form>
 

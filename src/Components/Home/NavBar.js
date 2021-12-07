@@ -14,9 +14,9 @@ const NavBar = () => {
                         Health Care
                     </Link>
 
-                  <div className='ms-auto'>   
+                    <div className='ms-auto'>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
@@ -27,20 +27,26 @@ const NavBar = () => {
                                 <NavLink className='navbarLink' to="/contact">Contact</NavLink>
 
 
-                                {!users.email ?
-                                    <NavLink className='navbarLink' to="/login">
+
+                                {
+                                    !users.email ? <NavLink className='navbarLink' to="/login">
                                         <button className='px-3  btn btn-outline-light'>Login</button>
-                                    </NavLink> :
-                                    <NavLink className='navbarLink' to="">
-                                        <button onClick={logOut} className='px-3  btn btn-outline-light'>LogOut</button>
-                                    </NavLink>}
-                                <p className='mt-3 text-white '> {users?.displayName}</p>
+                                    </NavLink>
+                                        :
+                                        <>
+                                            <NavLink className='navbarLink' to="">
+                                                <button onClick={logOut} className='px-3  btn btn-outline-light'>LogOut</button>
+                                            </NavLink>
+                                            <p className='pt-3 mt-1 mx-1 text-white '> {users?.displayName}</p>
+                                            <img src={users?.photoURL} width='60' height="auto" className=" rounded-circle" alt="" />
+                                        </>
+                                }
+
+
                             </div>
+
                         </div>
                     </div>
-
-
-
                 </div>
             </nav>
         </>

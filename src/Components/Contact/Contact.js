@@ -4,8 +4,8 @@ const Contact = () => {
     return (
         <>
 
-            <div className='text-center   my-5'>
-                <h1 className='text-primary mb-3'>Contact With Health Care</h1>
+            <div className='text-center  my-5'>
+                <h1 className='text-success mb-3'>Contact With Health Care</h1>
                 <div className="row container mx-auto contactUs py-5 my-5">
                     <div className="col-md-5 text-start text-dark fw-bolder">
                         <p>Email: healthcare@gmail.com</p>
@@ -48,7 +48,7 @@ const Contact = () => {
                                 <label for="exampleFormControlTextarea1" class="form-label"></label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
                             </div>
-                            <button className='btn btn-primary rounded-pill px-4'>Send</button>
+                            <button className='btn btn-success rounded-pill px-4'>Send</button>
                         </div>
                     </div>
                 </div>

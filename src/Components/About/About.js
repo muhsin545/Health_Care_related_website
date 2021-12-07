@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
 
-            <h1 className='fw-bolder my-5 text-center text-primary'>About "Health Care Limited" </h1>
+            <h1 className='fw-bolder my-5 text-center text-success'>About "Health Care Limited" </h1>
             <div className="row container mx-auto">
                 <div className="col-md-6">
                     <img className='img-fluid ' src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className="row container">
                 <div className="col-md-5 vision mb-5 ms-auto ">
-                    <h1 className='fw-small text-center my-5 text-primary'>"Our Vision" </h1>
+                    <h1 className='fw-small text-center my-5 text-success'>"Our Vision" </h1>
                     <ul>
                         <li>
                             <b>
@@ -61,7 +61,7 @@ const About = () => {
 
                 </div>
                 <div className="col-md-5 mx-2  mission  mb-5">
-                    <h1 className='fw-small text-center my-5 text-primary'>"Our Mission" </h1>
+                    <h1 className='fw-small text-center my-5 text-success'>"Our Mission" </h1>
                     <ul>
                         <li>
                             <b>Mission: </b>

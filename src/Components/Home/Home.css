@@ -1,5 +1,24 @@
-.Banner{
-    margin: auto;
+.banner{
+    background-color: darkcyan;
+    background-image: url(../../images/v870-tang-35.jpg);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.banner h1{
+    color: #115e66;
+}
+.banner div img{
+    margin-top:100px ;
+}
+.banner button{
+    background: rgb(34, 190, 190);
+    margin: 0 0;
+    padding: 20px 15px;
+    color: rgb(247, 255, 255);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .footer{
     background-color:darkcyan;
@@ -12,6 +31,13 @@ opacity: 0.8;
 }
 .gallery:hover{
     opacity: 1;
-    transform: scale(0.9);
-    transition: all 0.5s ease-in;
+    transform: rotateY(180deg);
+    transition: all 1.5s ease-in;
+}
+.img {
+  max-width: 100%;
+  max-height: auto;
+}
+.Blogs{
+    color:darkcyan;
 }
