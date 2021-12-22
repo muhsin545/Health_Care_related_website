@@ -12,9 +12,11 @@ const Service = ({ service }) => {
                     <div class="card-body">
                         <h5 class="card-title">{name}</h5>
                         <p class="card-text">{desc.slice(0, 70)}</p>
-                        <p class="card-text"><Link to={`/service/${id}`}>
-                            <button className='btn btn-success'>Details</button>
-                        </Link ></p >
+                        <p class="card-text">
+                            <Link to={`/service/${id}`}>
+                                <button className='btn btn-success'>Details</button>
+                            </Link >
+                        </p >
                     </div >
                 </div >
             </div >
