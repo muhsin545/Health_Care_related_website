@@ -14,7 +14,7 @@ const Home = () => {
             <Banner></Banner>
             <div className="row container  mx-auto my-5 text-center g-3">
                 <h1 style={{ color: 'darkcyan' }} className="text-center  fw-bold my-5">
-                    Why Would You Choose Us!!
+                    You will Choose Us Because We provide !!
                 </h1>
                 <div className="col-md-3 mx-auto Chooseservices my-3">
                     <img src={logo4} alt="" />
