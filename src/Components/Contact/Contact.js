@@ -4,21 +4,20 @@ const Contact = () => {
     return (
         <>
 
-            <div className='text-center  my-5'>
-                <h1 className='text-success mb-3'>Contact With Health Care</h1>
-                <div className="row container mx-auto contactUs py-5 my-5">
-                    <div className="col-md-5 text-start text-dark fw-bolder">
-                        <p>Email: healthcare@gmail.com</p>
-                        <p>Phone: +9897656759000</p>
-                        <p>Address : # BrammonGram #ManikGonjBazar #Kanaighat #Sylhet</p>
-                        <div>
+            <div style={{ color: "darkcyan" }} className='text-center  my-5'>
+                <h1 className=' mb-3'>Contact With Health Care</h1>
+                <div className="row container mx-auto contactUs py-5 my-5 align-items-center bgImg">
+
+                    <div className="col-md-5 text-center mx-auto fw-bolder ">
+                        <p className='mt-2 pt-4'>Phone: +9897656 759000</p>
+                        <p className='pt-5 mt-5'>Email: healthcare@gmail.com</p>
+
+                        {/* <p>Address : # BrammonGram #ManikGonjBazar #Kanaighat #Sylhet</p> */}
+                        <div className=''>
                             <b className='socialMedia'>Facebook</b>
-                            <b className='socialMedia'>Twitter</b>
+                            <b className='socialMedia'>           </b>
                             <b className='socialMedia'>LinkedIn</b>
                         </div>
-                    </div>
-                    <div className="col-md-5 ms-auto">
-                        <img className='img-fluid' src="https://images.pexels.com/photos/263564/pexels-photo-263564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
                     </div>
                 </div>
                 <div className="row container tex-dark mx-auto contactUs p-5">
@@ -48,7 +47,7 @@ const Contact = () => {
                                 <label for="exampleFormControlTextarea1" class="form-label"></label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
                             </div>
-                            <button className='btn btn-success rounded-pill px-4'>Send</button>
+                            <button style={{ backgroundColor: "darkcyan", color: '#ffffff' }} className='btn fw-bold text-uppercase rounded-pill px-5'>Send</button>
                         </div>
                     </div>
                 </div>

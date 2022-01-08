@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <>
             <div className="container px-5 ">
-                <h1 className='text-success fw-normal mt-5'>--Our Services-- </h1>
+                <h1 style={{ color: 'darkcyan' }} className=' fw-normal mt-5'>--Our Services-- </h1>
                 <div className="card-group">
                     {
                         services.map(service => <Service

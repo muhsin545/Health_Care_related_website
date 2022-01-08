@@ -13,29 +13,29 @@ const Home = () => {
         <>
             <Banner></Banner>
             <div className="row container  mx-auto my-5 text-center g-3">
-                <h1 className="text-center text-success fw-bold my-5">
+                <h1 style={{ color: 'darkcyan' }} className="text-center  fw-bold my-5">
                     Why Would You Choose Us!!
                 </h1>
-                <div className="col-md-3 mx-auto">
+                <div className="col-md-3 mx-auto Chooseservices my-3">
                     <img src={logo4} alt="" />
                     <h3>24 Hours Services</h3>
                 </div>
-                <div className="col-md-3 mx-auto">
+                <div className="col-md-3 mx-auto Chooseservices my-3">
                     <img src={logo2} alt="" />
                     <h3>Emergency Service</h3>
                 </div>
-                <div className="col-md-3 mx-auto">
+                <div className="col-md-3 mx-auto Chooseservices my-3">
                     <img src={logo3} alt="" />
                     <h3>Specialized Doctors</h3>
                 </div>
-                <div className="col-md-3 mx-auto">
+                <div className="col-md-3 mx-auto Chooseservices my-3">
                     <img src={logo1} className="img-fluid w-50" alt="" />
                     <h3>Ambulance Service</h3>
                 </div>
             </div>
             <Services></Services>
             <div className="container my-5">
-                <h1 className="text-center  text-success fw-bold">
+                <h1 style={{ color: 'darkcyan' }} className="text-center  fw-bold">
                     Gallery</h1>
                 <div className="row pe-0 ps-0">
                     <div className="col-md-4 pe-0 ps-0 gallery">
@@ -76,7 +76,7 @@ const Home = () => {
 
                                         With the latest dev., the total number of deaths reached 27,778, while the number of total infections rose to 1,565,827 in the country.
                                         another 509 patients recovered from the infectious disease across the country, */}
-                                    </p>  <button className="btn btn-outline-success my-1  w-100 text-center px-4">Read More</button>
+                                    </p> <button style={{ backgroundColor: 'darkcyan', color: '#fff ' }} className="btn btn-outline fw-bold  text-uppercase my-1  w-100 text-center px-4">Read More</button>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const Home = () => {
                                     <p class=" text-start">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam et, veniam sapiente nostrum dignissimos repellendus. Ipsam voluptatum et officiis, sit temporibus odio repellendus voluptatibus ea.
                                         {/* The Russian government has been actively engaged in spreading disinformation and misinformation around the pandemic.The Kremlin has also been active in ordering internet platforms operating in the country to remove coronavirus “fake news” from their platforms, which follows previous Kremlin efforts to crack down on independent internet sites offering legitimate news. */}
-                                    </p>  <button className="btn btn-outline-success my-1  w-100 text-center px-4">Read More</button>
+                                    </p>  <button style={{ backgroundColor: 'darkcyan', color: '#fff ' }} className="btn btn-outline fw-bold  text-uppercase my-1  w-100 text-center px-4">Read More</button>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const Home = () => {
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam et, veniam sapiente nostrum dignissimos repellendus. Ipsam voluptatum et officiis, sit temporibus odio repellendus voluptatibus ea.{/* Germany, France, Italy and Spain have suspended the use of AstraZeneca’s COVID-19 vaccine after several reports of blood clots in people who received the shot in Europe.
 
                                         The flurry of suspensions on Monday came after a number of other countries, mostly in Europe, halted their rollouts late last week. */}</p>
-                                    <button className="btn btn-outline-success my-1  w-100 text-center px-4">Read More</button>
+                                    <button style={{ backgroundColor: 'darkcyan', color: '#fff ' }} className="btn btn-outline fw-bold  text-uppercase my-1  w-100 text-center px-4">Read More</button>
                                 </div>
                             </div>
                         </div>

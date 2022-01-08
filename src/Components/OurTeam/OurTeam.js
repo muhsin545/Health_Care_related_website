@@ -2,8 +2,8 @@ import React from 'react';
 import './OurTeam.css'
 const OurTeam = () => {
     return (
-        <div>
-            <h1 className=" text-center fw-bolder text-success my-5 ">Our Specialized Doctors</h1>
+        <div style={{ color: "darkcyan" }}>
+            <h1 className=" text-center fw-bolder  my-5 ">Our Specialized Doctors</h1>
             <div className="row container mx-auto my-5">
                 <div className="col-md-4 my-3  p-2 div div div">
                     <img className='img-fluid doctorsImg doctorsImg' src="https://image.freepik.com/free-photo/happy-medical-team-hospital_1098-491.jpg" alt="" />

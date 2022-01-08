@@ -27,12 +27,13 @@
     background-color:lightgrey;
 }
 .gallery{
+    transition: all 1.5s;
 opacity: 0.8;
 }
 .gallery:hover{
     opacity: 1;
     transform: rotateY(180deg);
-    transition: all 1.5s ease-in;
+    transition: all .0s ease-in;
 }
 .img {
   max-width: 100%;

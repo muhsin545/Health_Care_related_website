@@ -22,10 +22,10 @@ const Login = () => {
 
 
     return (
-        <>
+        <div style={{ color: "darkcyan" }}>
 
             <form onSubmit={handleRegistration} className='container'>
-                <h2 className="my-5 text-center text-success">Please {!isLogin ? "Register" : "Login"}</h2>
+                <h2 className="my-5 text-center">Please {!isLogin ? "Register" : "Login"}</h2>
                 {
                     !isLogin && <div class="row mb-3 mt-5">
                         <label for="inputName" class="col-sm-2 col-form-label">Name</label>
@@ -66,7 +66,7 @@ const Login = () => {
             </form>
 
 
-        </>
+        </div>
 
     );
 };

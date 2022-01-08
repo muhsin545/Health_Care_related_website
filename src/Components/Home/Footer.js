@@ -21,15 +21,17 @@ const Footer = () => {
                 <div className="mx-auto my-5  col-md-4">
                     <h4>Contact With Us</h4>
 
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email" />
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Leave Your Comments</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <input type="submit" class="btn btn-outline-light w-100" value="Submit" />
+                    <form action="https://formsubmit.co/muhibullahmuhsin545@gmail.com" method="POST">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Leave Your Comments</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-outline-light w-100" value="Submit" />
+                    </form>
                 </div>
 
 

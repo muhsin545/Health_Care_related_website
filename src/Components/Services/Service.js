@@ -14,7 +14,7 @@ const Service = ({ service }) => {
                         <p class="card-text">{desc.slice(0, 70)}</p>
                         <p class="card-text">
                             <Link to={`/service/${id}`}>
-                                <button className='btn btn-success'>Details</button>
+                                <button style={{ backgroundColor: 'darkcyan', color: '#fff ' }} className="btn btn-outline fw-bold  text-uppercase  w-100 text-center px-4">Details</button>
                             </Link >
                         </p >
                     </div >

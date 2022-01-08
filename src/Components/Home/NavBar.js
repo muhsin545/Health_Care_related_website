@@ -10,7 +10,7 @@ const NavBar = () => {
             <nav class="navbar nav navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <Link class="navbar-brand  fw-bolder text-white" to="/home">
-                        <img src={logo} alt="" width="60" height="auto" class="d-inline-block rounded-circle border border-3 align-text-center mx-2 border-success" />
+                        <img src={logo} alt="" width="60" heinpght="auto" class="d-inline-block rounded-circle border border-3 align-text-center mx-2 border-success" />
                         Health Care
                     </Link>
 
